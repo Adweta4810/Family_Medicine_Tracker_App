@@ -1,0 +1,44 @@
+# =========================
+# Android Studio + Gradle
+# Push source code only
+# =========================
+
+# Always keep git config files
+!.gitignore
+!.gitattributes
+
+# ---------- Gradle ----------
+.gradle/
+**/build/
+build/
+
+# ---------- Local / machine-specific ----------
+local.properties
+**/local.properties
+
+# ---------- Android Studio / IntelliJ ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+
+# ---------- External Native Build ----------
+.externalNativeBuild/
+.cxx/
+
+# ---------- Logs ----------
+*.log
+
+# ---------- APK / AAB outputs ----------
+*.apk
+*.aab
+
+# ---------- Optional (uncomment if you want to ignore) ----------
+# google-services.json
+# *.jks
+# *.keystore
